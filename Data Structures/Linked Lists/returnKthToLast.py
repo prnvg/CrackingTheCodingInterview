@@ -2,6 +2,14 @@
 Return Kth to Last: Implement an algoritthm to find the kth to last element of a singly linked list.
 """
 
+class Node:
+    """
+    A simple class for a linked list node.
+    """
+    def __init__(self, val):
+        self.val = val
+        self.next = None
+        
 def createList(elements):
     """
     Function to create a linked list with values supplied as an ArrayList.
