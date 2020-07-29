@@ -18,8 +18,6 @@ def URLify(s, true_length):
         if s[i] == " ":
             num_spaces += 1
     index = true_length + 2 * num_spaces
-    print(index)
-    print(num_spaces)
     
     for i in range(true_length-1, 0, -1):
         if s[i] == " ":
