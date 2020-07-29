@@ -13,7 +13,7 @@ class Node:
         
 def createList(elements):
     """
-    Function to create a linked list with values supplied as a list.
+    Function to create a linked list with values supplied as a ArrayList.
     Returns the head of the linked list.
     """
     head = Node(elements[0])
