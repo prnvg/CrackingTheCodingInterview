@@ -31,3 +31,5 @@ def URLify(s, true_length):
             index -= 1
             
     return "".join(s)
+
+URLify("Mr John Smith    ", 13)
